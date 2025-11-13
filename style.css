@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: #C4B5A5;
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.p{
+    font-size: 30px;
+    font-weight: 800;
+}
+.h{
+    font-size: 35px;
+    font-weight: 800;
+    width: 420px;
+}
+.ee{
+    width: 426px;
+}
+.but{
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #FB982F;
+    font-weight: 600;
+}
+.bute{
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: black;
+    font-weight: 600;
+    color: white;
+}
+.hboss{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.mainboss{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.vvv{
+    display: flex;
+    gap: 88px;
+}
+.LightMode{
+        background-color: #C4B5A5;
+        transition: 1.3s;
+}
+.DarkMode{
+    background-color: black;
+    color: white ;
+    transition: 1.3s;
+}
